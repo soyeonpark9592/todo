@@ -1,0 +1,136 @@
+@import url("https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css");
+
+* {
+    box-sizing: border-box;
+}
+
+*:after {
+    box-sizing: border-box;
+}
+
+*:before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px auto;
+    text-align: center;
+    font-family: 'NanumSquare';
+
+    background: #333;
+}
+
+h2 {
+    font-weight: 600;
+    color: #fff;
+    width: 30%;
+    margin: 0 auto;
+    background: #101010;
+    padding: 1vw;
+
+}
+
+#app {
+    background-color: #eaeaea;
+    width: 40%;
+    margin: 3vw auto;
+    padding: 6vw 0;
+    padding-top: 2vw;
+}
+
+#app h3 {
+    font-size: 2vw;
+    font-weight: 800;
+    border-bottom: 3px solid #565656;
+    width: 80%;
+    margin: 0 auto 2vw;
+    padding-bottom: 1vw;
+}
+
+#app .list {
+    display: flex;
+    justify-content: space-around;
+}
+
+#app .list li {
+    width: 20%;
+    text-align: center;
+    margin-left: 60px;
+}
+
+
+
+#app div {
+    text-align: left;
+    margin: 0 auto;
+    width: 80%;
+    padding: 0.6vw;
+    border-bottom: 1px solid #565656;
+
+}
+
+#app div label {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+    padding: 0 1.2vw;
+
+
+}
+
+#app div label span {
+    display: inline-block;
+    margin: 0 auto;
+    width: 33.33%;
+    text-align: left;
+}
+
+#app div label button {
+    padding: 0.7vw 1vw;
+    background: #257FFF;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+#app p {
+    margin-bottom: 1vw;
+}
+
+#app p button {
+    margin-top: 1vw;
+    width: 10vw;
+    padding: 0.6vw 0;
+    background: #101010;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#app .pushdiv {
+    border: none;
+    font-weight: 600;
+    font-size: 1.4vw;
+    margin-bottom: 1.2vw;
+}
+
+#app .pushdiv input {
+    padding: 1vw 2vw;
+    margin-top: 1vw;
+    width: 45%;
+
+}
+
+#app .pushdiv span{
+    font-size: 0.8vw;
+    color: #565656;
+}
+
+
+.result {
+    font-weight: 600;
+}
